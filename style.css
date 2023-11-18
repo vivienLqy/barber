@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.en_tete{
+    background-color: bisque;
+    width: 100%;
+    box-shadow: 0px 3px 5px 0px rgba(163, 163, 167, 0.8) ;
+}
+.w-95{
+    width: 95%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-Sb{
+    justify-content: space-between;
+}
+nav {
+    margin-top: 25px;
+    background-color: bisque;
+    width: 100%;
+    
+}
+.listSt-none{
+    list-style: none;
+}
+.w-100{
+    width: 100%;
+}
+.m-auto{
+    margin: auto;
+}
+.w-30{
+    width: 30%;
+}
+.h-35{
+    height: 40px;
+}
+.a-center{
+    align-items: center;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.moustache{
+    width: 60px;
+    height: 20px; 
+}
+.moustache_content{
+    margin-right: 4em;
+}
+.fsize-20{
+    font-size: 22px;
+}
+.fweight-700{
+    font-weight: 700;
+}
+.banniere{
+    background: no-repeat center url(img/bandeau.jpg-min.jpg);
+    background-size: cover;
+    height: 428px;
+    width: 100%;
+}
+.justify-center{
+    justify-content: center;
+}
+.navbar{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.651)
+}
