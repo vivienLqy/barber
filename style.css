@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
 }
 body{
     width: 100%;
@@ -78,4 +79,36 @@ ul a{
 }
 .navbar{
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.651)
+}
+.search{
+    width: 15%;
+    height: 15%;
+    position: relative;
+}
+#input_search{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+.fa-solid{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding-right: 5px;
+
+}
+.banniere a{
+    background: rgb(4, 139, 154);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.651);
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+.banniere a:hover{
+    background: rgb(2, 78, 87);
 }
